@@ -1,10 +1,12 @@
 body{
-    background-color:#2e1cb2
+    background-color:#2e1cb2 
 }
+/* alla mina body ska ha denna färgen, blå */
 
 .wrapper{
+    width: 101%;
     display:grid;
-    grid-template-rows:80px 50px auto 50px;
+    grid-template-rows:100px 50px auto 80px;
     grid-template-columns: 2fr;
     grid-template-areas:
     "header"
@@ -13,21 +15,21 @@ body{
     "footer";
     background-color:rgb(35, 12, 116);
     color: rgb(193, 3, 72);
+    /* alla kod som sätter I main kommer att ändra sitt egenskaper beror på vad man skriver*/
 
     
 }
-.wrapper2{
+tycker .wrapper{
    
     background-color:rgb(29, 3, 106);
+    color: white;
        
 }
 
-.wrapper3{
+värförp .wrapper{
    
     background-color:rgb(29, 3, 106);
     color: rgb(21, 255, 4);
-    
- 
        
 }
 img{
@@ -62,10 +64,32 @@ p{
     border: 1px solid rgb(247, 14, 14);
     border-style:groove;
 }
+.favoritspel {
+    text-decoration: none;
+     border: none;
+     color: white;
+}
 
-a{
+nav a{
     text-decoration:none; 
-    border: 1px solid rgb(34, 15, 15);
+    color:white;
+    border: 1px solid rgb(110, 91, 91);
+    border: 1px solid black;
+      border-radius: 100px;
+      border-width: 3px;
+      border-bottom-color:green;
+      border-top-color:white;
+      background-color: rgb(28, 31, 31);
+    
+    
+}
+a{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: white;
+     
+    
     
 }
 
@@ -78,7 +102,14 @@ nav>ul {
     grid-template-columns: 8fr 2fr 1fr;
     list-style-type:none;
 }
-¨
+
+table, th td{
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+
+   
+}
 
 
 main{
