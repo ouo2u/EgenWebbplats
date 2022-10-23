@@ -19,7 +19,7 @@ body{
 
     
 }
-tycker .wrapper{
+tycker .wrapper{/*Här så vill jag har allt som finns på .wrapper men vill ändra lite därför giv jag wrapper en id som hetter tycker.   */ 
    
     background-color:rgb(29, 3, 106);
     color: white;
@@ -32,16 +32,16 @@ värförp .wrapper{
     color: rgb(21, 255, 4);
        
 }
-img{
+img{/* ändra storlek på bilden */
     border-radius: 4px;
     width: 500px;
 }
 
 
-header{
+header{/*ger en grid area för header  */
     grid-area:header;
 }
-h1{
+h1{/*ändra egenskaper på h1  */
     text-align:center;
     color:white;
     text-decoration:underline;
@@ -55,22 +55,22 @@ h1{
       
 }
 
-h2{
+h2{/* ändra egenskaper på h2 */
     color:rgb(19, 83, 138);
     text-decoration:overline;
     
 }
-p{
+p{/* ändra egenskaper på p   */
     border: 1px solid rgb(247, 14, 14);
     border-style:groove;
 }
-.favoritspel {
+.favoritspel { /* Detta är p men gav en class på den  */ 
     text-decoration: none;
-     border: none;
+    border: none;
      color: white;
 }
 
-nav a{
+nav a{/* Detta är för listan som jag skapade för länker*/ 
     text-decoration:none; 
     color:white;
     border: 1px solid rgb(110, 91, 91);
@@ -83,35 +83,44 @@ nav a{
     
     
 }
-a{
+a{/* text egenskaper  */
     text-decoration: none;
     border: none;
-    text-align: center;
     color: white;
      
     
     
 }
 
-nav{
+nav{/* ger en grid are för nav  */
     grid-area:nav;
     
 }
-nav>ul {
+nav>ul {/* ändra egenskaper på texten för listan  */
     display:grid;
     grid-template-columns: 8fr 2fr 1fr;
     list-style-type:none;
 }
 
-table, th td{
-    height: 100px;
-    width: 300px;
-    border: 3px solid black;
+table{ /*egen skaper för min table  */ 
+    height: 200px;
+    width: 900px;
+    border: 3px solid rgb(255, 255, 255);
+    border-style: dashed;
 
-   
 }
 
 
-main{
+tr:nth-child(even) {
+    background-color: #0c0c0c;
+    color: black;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fdfff4;
+    color: rgb(0, 0, 0);
+  }
+
+main{/*ger min main en grid area.   */
     grid-area:main;
 }
