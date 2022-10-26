@@ -60,6 +60,18 @@ h2{/* ändra egenskaper på h2 */
     text-decoration:overline;
     
 }
+
+h3{/* ändra egenskaper på h3 */
+    color: red;
+}
+h4{/* ändra egenskaper på h4 */
+    color: red;
+}
+h5{/* ändra egenskaper på h5 */
+    font-size: large;
+    color: aliceblue;
+    
+}
 p{/* ändra egenskaper på p   */
     border: 1px solid rgb(247, 14, 14);
     border-style:groove;
@@ -83,7 +95,7 @@ nav a{/* Detta är för listan som jag skapade för länker*/
     
     
 }
-a{/* text egenskaper  */
+a{/* allt text som är definerat som a ändrar egenskapr, alltså länker  */
     text-decoration: none;
     border: none;
     color: white;
@@ -102,21 +114,23 @@ nav>ul {/* ändra egenskaper på texten för listan  */
     list-style-type:none;
 }
 
-table{ /*egen skaper för min table  */ 
-    height: 200px;
-    width: 900px;
+table , td{ /*egenskaper för min table  */ 
+    height: 50px;
+    width: 800px;
     border: 3px solid rgb(255, 255, 255);
     border-style: dashed;
+    border-collapse: collapse;
 
 }
 
 
-tr:nth-child(even) {
+tr:nth-child(even) {   /* Detta används för zebbra striping */ 
     background-color: #0c0c0c;
-    color: black;
+    color: rgb(255, 255, 255);
+    
   }
   
-  tr:nth-child(odd) {
+  tr:nth-child(odd) {   /*Samma men den funkar på odd  */ 
     background-color: #fdfff4;
     color: rgb(0, 0, 0);
   }
